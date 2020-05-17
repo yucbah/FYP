@@ -1,0 +1,577 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+body {
+  background-image: gradient-linear(white,white,white,grey;  width:100%;
+  font-family: Perpetua,serif;
+}
+
+.center {
+  text-align: center;
+  border: 3px solid black ;
+}
+
+
+.pro-rate {
+    overflow: hidden;
+    display: inline-block;
+    padding: 2px  2px;
+    height: 20px;
+    line-height: 22px;
+    color: black;
+    background: black url(//css.dhresource.com/multi/landpage/flashdeals/image/kill-icon.png?v=1524215644191) no-repeat right 0;
+}
+
+.price ,.original-price {
+    color: black;
+}
+
+.left , .left-bar span {
+    height: 5px;
+    border-radius: 5px;
+    background-color: red;
+    width:55px;
+}
+
+
+.left1 , .left-bar1 span {
+    height: 5px;
+    border-radius: 5px;
+    background-color: red;
+    width:15px;
+}
+
+/*.text1{
+  width:90%;
+  padding: 5px 15px;
+  color: white;
+  background-color:#e59400;
+  opacity: 80%;
+  border-radius: 3px;
+  color: black;
+  margin:auto;
+}*/
+
+.hotdeals {
+  display: flex;
+  bottom:0px;
+  background: white;
+  padding:5px;
+  width:100%;
+}
+
+.Deal{
+  background: lightred;
+  width:100%;
+}
+
+.images {
+  flex: 15%;
+  padding: 6px;
+}
+
+.register{
+  cursor: pointer;
+  float:right;
+  position: absolute;
+  width:150px;
+  height:70px;
+  margin: auto;
+  right:0;
+  top:0;
+}
+*/
+.banner{
+  margin: auto;
+}
+
+.watch{
+  float:right;
+}
+
+.Logo{
+  display: block;
+  margin-left: 500px;
+  margin-right: auto;
+  width: 200%;
+  margin: auto;
+}
+
+* {box-sizing: border-box}
+
+/*container  main */
+.container {
+  position: relative;
+  border-radius: 10px;
+  background-color: white;
+
+}
+
+/* styles of the buttons */
+/*  Over ride the other btn */
+/*yes btn not button so diffretrn css for other buttons */
+input,
+.btn {
+  width: 90%;
+  padding: 12px;
+  border: none;
+  position:center;
+  border-radius: 6px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* gets rid of  underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #grey;
+  color: black;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 175px;
+}
+
+/* text inside the vertical line */
+.inner {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+
+/* bottom container */
+.bottom-container {
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+.banner{
+  margin: auto;
+  color: black;
+
+
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+
+/*LOG in trigger css */
+
+/*Trigger Button*/
+.login-trigger {
+ font-weight: bold;
+ color: black;
+ background: #f6f8f9;
+ padding: 15px 30px;
+ border-radius: 0px;
+ position: relative;
+ top: 50%;
+ float:right
+}
+
+/*Modal*/
+h4 {
+ font-weight: bold;
+ color: #fff;
+}
+.close {
+ color: #fff;
+ transform: scale(1.2)
+}
+.modal-content {
+ font-weight: bold;
+ background: linear-gradient(to bottom right,lightgrey, black);
+}
+.form-control {
+ margin: 1em 0;
+}
+.form-control:hover, .form-control:focus {
+ box-shadow: none;
+ border-color: #fff;
+}
+.username, .password {
+ border: none;
+ border-radius: 0;
+ box-shadow: none;
+ border-bottom: 2px solid #eee;
+ padding-left: 0;
+ font-weight: normal;
+ background: transparent;
+}
+.form-control::-webkit-input-placeholder {
+ color: white;
+}
+.form-control:focus::-webkit-input-placeholder {
+ font-weight: bold;
+ color: #fff;
+}
+.login {
+ padding: 6px 20px;
+ border-radius: 50px;
+ background: none;
+ border: 2px solid #FAB87F;
+ color: #FAB87F;
+ font-weight: bold;
+ transition: all .5s;
+ margin-top: 1em;
+}
+.login:hover {
+ background: #FAB87F;
+ color: #fff;
+}
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 5px 5px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  top: 0px;
+  right: 28px;
+  width: 70px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 25px;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the login button */
+.form-container .btn {
+  background-color: black;
+  color: white;
+  padding: 16px 20px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+
+-------------------------------------------------------------------------------
+/*   REGISTER FORM CSS
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 1px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 10px;
+  position: relative;
+  top: 50%;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #fff;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color:#484848;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 9px;
+  float:right;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.containerR {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: lightgrey;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: black;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+  color: grey;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}    */
+
+
+.writing {
+  text-align: center;
+  border: 3px solid black ;
+}

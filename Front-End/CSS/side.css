@@ -1,0 +1,35 @@
+
+.nav-cateList {
+    position:relative;
+    top:150px;
+    right:70px;
+    background-color: #fff;
+    height: 440px;
+    overflow: hidden;
+    float:left;
+    position:relative;
+    left:-30px;a
+    top:100px;
+  
+
+}
+.nav-cateList li { 
+	border: 1px solid black;
+    width: 180px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 35px;
+    border-width: 0px 2px 0px 2px;
+    height: 58px;
+    position: relative;
+    z-index: 1;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    line-height: 28px;
+    margin-left: -1px;
+    overflow: hidden;
+}
+
+
+
+

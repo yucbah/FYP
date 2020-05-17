@@ -1,0 +1,50 @@
+
+element.style {
+    width: 20000px;
+    margin-left: 0px;
+}
+.FeaturedSellers .box {
+    width: 5000px;
+}
+.slide-inline {
+    width: 20000px;
+}
+.clearfix {
+    *zoom: 1;
+}
+div, p, h2 {
+    padding: 0;
+    margin: 0;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+body, table, td, div, p {
+    word-wrap: break-word;
+    -webkit-text-size-adjust: none;
+}
+<style>
+* {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    font: 12px/1.5 'ns-r';
+}
+body {
+    background: #fff;
+    color: #333;
+    font: 12px/1.5 Arial,Helvetica,sans-serif;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}

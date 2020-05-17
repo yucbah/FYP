@@ -1,0 +1,54 @@
+
+div.Logo{
+  width:850px;
+}
+div.box{
+  width:150px;
+  top:0px;
+}
+.Logo{
+  position:relative;
+  left:10px
+   width:100px;
+}
+
+.box{
+  position:relative;
+  left:950px;
+  top:0px;
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  border:6px;
+  border-color: black;
+  width: 100%;
+  font-size: 25px;
+  font-family: Perpetua,serif;
+  border-radius: 13px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  border-radius: 4px;
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0px 45px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+  shape-inside: circle(10px ,10px);
+}
+
+/* Main content */
+
+.main {
+  margin-top: 5px; /* Add a top margin to avoid content overlay */
+}

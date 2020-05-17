@@ -1,0 +1,230 @@
+@font-face {
+  font-family: 'HelveticaNeue-Light';
+  src: url('helvetica-neue-ultra-light.ttf');
+}
+
+.btn {
+  background: 0px;
+  border: 0px;
+  cursor: pointer;
+  font-family: 'HelveticaNeue-Light';
+  font-weight: 100;
+}
+
+#headBar {
+  background-color: #1F2022;
+  height: 50px;
+  color: #D3D3D3;
+  font-family: "HelveticaNeue-Light";
+  padding: 1px;
+  width: 100%;
+}
+
+#title {
+  color: #D3D3D3;
+  font-size: 1.4em;
+  margin-top: 5px;
+}
+
+#instagram {
+  position: relative;
+  float: right;
+  background-image: url('https://www.fitnessfactoryleicester.co.uk/wp-content/themes/default001/images/socials/i-instagram.png');
+  width: 25px;
+  height: 25px;
+  background-size: 25px 25px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#navBar {
+  text-align: center;
+  padding: 10px;
+  height: 50px;
+  padding-left: 200px;
+  width: 100%;
+}
+
+.navBtn {
+  background: 0px;
+  border: 0px;
+  cursor: pointer;
+  font-family: 'HelveticaNeue-Light';
+  font-weight: 100;
+  color: black;
+  font-size: 1.2em;
+  text-align: center;
+  margin-left: 50px;
+}
+
+#lookbookButton {
+  float: left;
+}
+
+#topsButton {
+  positio: relative;
+  float: left;
+}
+
+#lifestyleButton {
+  float: left;
+}
+
+#saleButton {
+  float: left;
+}
+
+#bagButton {
+  float: right;
+}
+
+#backButton {
+  position: relative;
+  color: #B0B0B0;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 94px;
+}
+
+#productImg {
+  margin-left: 108px;
+  float: left;
+}
+
+#smallproductImg {
+  float: left;
+  margin-left: 20px;
+}
+
+#nameText {
+  font-family: "HelveticaNeue-Light";
+  font-weight: 100;
+  font-size: 2em;
+  position: absolute;
+  left: 570px;
+  padding-left: 150px;
+  padding-top: 5px;
+  margin-top: -14px;
+}
+
+#colorText {
+  padding-top: 20px;
+  position: absolute;
+  margin-left: 705px;
+  font-family: "HelveticaNeue-Light";
+  font-size: 1.2em;
+}
+
+.colorBtn {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+}
+
+#color1 {
+  left: 722px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+#color2 {
+  background-color: coral;
+  left: 792px;
+  margin-top: 10px;
+}
+
+#sizeTitle {
+  font-family: "HelveticaNeue-Light";
+  font-weight: 100;
+  font-size: 1.2em;
+  padding-top: 20px;
+  position: absolute;
+  margin-left: 706px;
+  margin-top: 60px;
+}
+
+.sizeButton {
+  position: absolute;
+  border: none;
+  background-color: white;
+  margin-top: 120px;
+  font-family: "HelveticaNeue-Light";
+  font-weight: 100; 
+  left: 715px;
+  margin-left:
+}
+
+.sizeButton:hover {
+  border-bottom: solid 1px black;
+}
+
+#szMedium {
+  left: 776px;
+}
+
+#szLarge {
+  left: 850px;
+}
+
+#szXLarge {
+  left: 914px;
+}
+
+#priceLabel {
+  position: absolute;
+  font-family: "HelveticaNeue-Light";
+  font-weight: 100;
+  left: 720px;
+  font-size: 1.7em;
+  margin-top: 180px;
+}
+
+#addBtn {
+  position: absolute;
+  font-family: "HelveticaNeue-Light";
+  font-weight: 100;
+  background-color: white;
+  border: solid 1px #dbdbdb;
+  height: 40px;
+  width: 170px;
+  margin-top: 175px;
+  left: 804px;
+}
+
+#descTitle {
+  position: absolute;
+  left: 719px;
+  margin-top: 260px;
+  font-family: "HelveticaNeue-Light";
+  font-weight: 100;
+  font-size: 1.2em;
+}
+
+ul {
+  position: absolute;
+  left: 710px;
+  top: 600px;
+  font-family: "HelveticaNeue-Light";
+  font-weight: 100;
+}
+
+li {
+  padding: 3px;
+}
+
+#chartButton {
+  position: absolute;
+  left: 703px;
+  margin-top: 400px;
+  color: lightblue;
+  font-size: 1.2em;
+}
+
+#srButton {
+  position: absolute;
+  left: 823px;
+  margin-top: 400px;
+  color: lightblue;
+  font-size: 1.2em;
+}

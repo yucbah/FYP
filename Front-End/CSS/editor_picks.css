@@ -1,0 +1,78 @@
+/******Main content*******/
+#page-content-wrapper {
+   width: 1000px;
+   height:700px;
+   position: relative;
+   left: 60px;
+   padding: 15px;
+}
+
+
+.main  {
+   position:relative;
+   left:210px;
+
+}*/
+
+/* Add padding BETWEEN each column */
+#gallery,
+#gallery > .column {
+   padding:9px;
+
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+   float: left;
+   width: 210px;
+   display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */
+.gallery:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+/* Content */
+.content {
+   background-color: white;
+   padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+   display: block;
+}
+
+/* Style the buttons */
+.myBtnContainer {
+   border: none;
+   outline: none;
+   padding: 12px 88.row6px;
+   background-color: white;
+   cursor: pointer;
+}
+
+.myBtnContainer .btn:hover {
+   background-color: #dddd;
+}
+
+.myBtnContainer .btn.active {
+   background-color: #666;
+   color: white;
+}
+
+.price1 {
+   color: orange;
+}
+.discount {
+   color: skyblue;
+   font-size: 14px;
+}
+
+.s {
+   box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.2);
+}
